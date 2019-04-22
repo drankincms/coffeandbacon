@@ -21,7 +21,7 @@ process_map["vbfhqq125"] = [
     "VBFHToBB_M_125_13TeV_powheg_pythia8_weightfix",
 ]
 process_map["hqq125"] = [
-    "GluGluHToBB_M125_13TeV_powheg_pythia8",
+    "GluGluHToBB_M125_13TeV_powheg_pythia8-skim",
 ]
 
 process_map["zll"] = [
