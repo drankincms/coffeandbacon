@@ -132,12 +132,17 @@ TTToHadronic_TuneCP5_13TeV_powheg_pythia8                                       
 TTToSemiLeptonic_TuneCP5_13TeV_powheg_pythia8                                          365.34
 TTTo2L2Nu_TuneCP5_13TeV_powheg_pythia8                                                   88.29
 TTToSemiLeptonic_WspTgt150_TuneCUETP8M2T4_13TeV_powheg_pythia8                     34.25*1.13
+TTToHadronic_TuneCP5_13TeV-powheg-pythia8					   377.96
+TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8						   88.29
+TTToSemiLeptonic_TuneCP5_13TeV-powheg-pythia8					   365.34
+ST_s-channel_4f_hadronicDecays_TuneCP5_13TeV-madgraph-pythia8                       3.36 
 ST_s-channel_4f_leptonDecays_13TeV-amcatnlo-pythia8_TuneCUETP8M1                    3.36
 ST_t-channel_4f_leptonDecays_13TeV-amcatnlo-pythia8_TuneCUETP8M1                   70.69
 ST_t-channel_4f_scaledown_leptonDecays_13TeV-amcatnlo-pythia8_TuneCUETP8M1         70.69
 ST_t-channel_4f_scaleup_leptonDecays_13TeV-amcatnlo-pythia8_TuneCUETP8M1           70.69
 ST_t-channel_5f_leptonDecays_13TeV-amcatnlo-pythia8_TuneCUETP8M1                   70.69
 ST_t-channel_antitop_4f_leptonDecays_13TeV-powheg-pythia8_TuneCUETP8M1             81.42*0.324
+ST_t-channel_antitop_4f_InclusiveDecays_TuneCP5_13TeV-powheg-madspin-pythia8	   81.42
 ST_t-channel_antitop_4f_inclusiveDecays_13TeV-powhegV2-madspin-pythia8_TuneCUETP8M1 81.42
 ST_t-channel_top_4f_leptonDecays_13TeV-powheg-pythia8_TuneCUETP8M1                136.82*0.324
 ST_t-channel_top_4f_inclusiveDecays_13TeV-powhegV2-madspin-pythia8_TuneCUETP8M1   136.82
@@ -157,6 +162,12 @@ ZJetsToQQ_HT-600ToInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8                    
 #ZJetsToQQ_HT400to600_TuneCP5_13TeV                                                   1347
 #ZJetsToQQ_HT600to800_3j_TuneCP5_13TeV                                                   138.7
 #ZJetsToQQ_HT_800toInf_TuneCP5_13TeV                                                   195.4
+WJetsToQQ_HT600to800_qc19_3j_TuneCP5_13TeV-madgraphMLM-pythia8                        68.57
+WJetsToQQ_HT400to600_qc19_3j_TuneCP5_13TeV-madgraphMLM-pythia8			      315.6
+WJetsToQQ_HT-800toInf_qc19_3j_TuneCP5_13TeV-madgraphMLM-pythia8			      34.9
+ZJetsToQQ_HT400to600_qc19_4j_TuneCP5_13TeV-madgraphMLM-pythia8			      145.4
+ZJetsToQQ_HT600to800_qc19_4j_TuneCP5_13TeV-madgraphMLM-pythia8			      34.0
+ZJetsToQQ_HT-800toInf_qc19_4j_TuneCP5_13TeV-madgraphMLM-pythia8			      18.67
 WJetsToQQ_HT400to600_qc19_3j_TuneCP5_13TeV                                            315.6
 WJetsToQQ_HT600to800_qc19_3j_TuneCP5_13TeV                                           68.57
 WJetsToQQ_HT-800toInf_qc19_3j_TuneCP5_13TeV                                           34.9
@@ -446,3 +457,6 @@ BulkGravToWW_narrow_M_2000_13TeV_madgraph 1
 BulkGravToWW_narrow_M_3000_13TeV_madgraph 1
 BulkGravToWW_narrow_M_3500_13TeV_madgraph 1
 BulkGravToWW_narrow_M_4500_13TeV_madgraph 1
+
+hww_mc 3.799e-01
+hwwmc 3.799e-01
