@@ -135,7 +135,7 @@ TTToSemiLeptonic_WspTgt150_TuneCUETP8M2T4_13TeV_powheg_pythia8                  
 TTToHadronic_TuneCP5_13TeV-powheg-pythia8					   377.96
 TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8						   88.29
 TTToSemiLeptonic_TuneCP5_13TeV-powheg-pythia8					   365.34
-ST_s-channel_4f_hadronicDecays_TuneCP5_13TeV-madgraph-pythia8                       3.36 
+ST_s-channel_4f_hadronicDecays_TuneCP5_13TeV-madgraph-pythia8                       10.12*0.676
 ST_s-channel_4f_leptonDecays_13TeV-amcatnlo-pythia8_TuneCUETP8M1                    3.36
 ST_t-channel_4f_leptonDecays_13TeV-amcatnlo-pythia8_TuneCUETP8M1                   70.69
 ST_t-channel_4f_scaledown_leptonDecays_13TeV-amcatnlo-pythia8_TuneCUETP8M1         70.69
