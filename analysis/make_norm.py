@@ -46,7 +46,7 @@ def make_norm(args):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Precompute MC weight') 
-    parser.add_argument('--samplejson', default='metadata/hwwfiles_hadd.json', help='JSON file containing dataset and file locations (default: %(default)s)')
+    parser.add_argument('--samplejson', default='metadata/htautaufiles_hadd.json', help='JSON file containing dataset and file locations (default: %(default)s)')
     parser.add_argument('-j', '--workers', type=int, default=8, help='Number of workers to use for multi-worker executors (e.g. futures or condor) (default: %(default)s)')
     args = parser.parse_args()
 

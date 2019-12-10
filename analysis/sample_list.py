@@ -10,7 +10,9 @@ def get2018files():
     idirJavier = 'root://cmseos.fnal.gov//store/user/jduarte1/pancakes/01/'
     idirLpchbb = 'root://cmseos.fnal.gov//store/user/lpchbb/cmantill/pancakes/01/'
     idirJeff = 'root://cmseos.fnal.gov//store/user/jkrupa/nano/'
-    idirLxplus = 'root://eoscms.cern.ch//store/group/phys_exotica/dijet/dazsle/hww/'
+    idirLxplus = 'root://eoscms.cern.ch//store/group/phys_exotica/dijet/dazsle/htautau/'
+    idirDylan = 'root://cmseos.fnal.gov//store/user/drankin/pancakes/01/'
+    
 
     tfiles = {
         'wqq': {'samples': ['WJetsToQQ_HT400to600_qc19_3j_TuneCP5_13TeV-madgraphMLM-pythia8',
@@ -71,11 +73,10 @@ def get2018files():
                'dir': idirLpchbb,
                'path': 'pancakes-01_RunIIAutumn18MiniAOD-102X_v15-v2',
            },
-        'h125': {'samples':['hww_mc',
-                            'hwwmc',
+        'h125': {'samples':['htautau',
                         ],
-                 'dir': idirLxplus,
-                 'path': 'NanoAOD'
+                 'dir': idirDylan,
+                 'path': 'htautau_mc'
              },
     }
 
