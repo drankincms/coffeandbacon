@@ -75,6 +75,7 @@ if __name__ == '__main__':
     preload_items = {}
 
     with open(args.samplejson) as fin:
+        print(fin)
         samplefiles = json.load(fin)
         samplefiles = samplefiles[args.year]
     if args.sample not in samplefiles:
