@@ -207,7 +207,7 @@ class BoostedHTauTauProcessorROC(processor.ProcessorABC):
         selection.add('good_jet0mu',(leadingjet['muonIdx3SJ']==0).any())
         selection.add('good_jet1mu',(subleadingjet['muonIdx3SJ']==0).any())
 
-        if 'hww' in dataset:
+        if 'htautau' in dataset:
             self.buildGenVariables(df)
             good_genEleEvt = ((df['genH_decay'] == 2) & (abs(df['ele0_genEledR']) < 0.2))
             good_genMuEvt = ((df['genH_decay'] == 3) & (abs(df['mu0_genMudR']) < 0.2))
